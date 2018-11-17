@@ -8,7 +8,6 @@ body{
 	background-color: #f3f3f3;
 	font-size: 18px;
 	font-weight: 400;
-	height: 5000px;
 }
 ul, li{
 	display: flex;
@@ -29,27 +28,61 @@ h2{
 h3{
 	font-size: 1.25em;
 }
+h4{
+	font-size: 22px;
+	font-weight: 500;
+}
 a{
 	color: #000;
 }
 a:hover{
 	text-decoration: none;
 	transition: all 0.25s ease;
+	color: #372549;
 }
 .title{
 	margin-top: 45px;
 	padding-bottom: 45px;
 }
-.project{
-	background-color: #f3f3f3;
-	/*background-image: url("img/123.jpg");
-	background-size: contain;*/
-	box-shadow: -2px 5px 15px rgba(0, 0, 0, 0.5);
-	width: 558px;
-	height: 379px;
+
+.card{
+	margin-bottom: 45px;
 	border-radius: 10px;
-	margin-bottom: 30px;
-	margin-right: 30px;
+}
+.card-text{
+	margin-top: 5px;
+	margin-bottom: 25px;
+}
+.card-img-top{
+	border-radius: 10px;
+}
+
+.card-img-overlay{
+	background: rgba(55, 37, 73, 0.8);
+	border-radius: 10px;
+	color: #fff;
+	font-weight: 500;
+	opacity: 0;
+	transition: .5s ease;
+}
+.card-img-overlay:hover{
+	opacity: 1;
+	box-shadow: -2px 5px 15px rgba(55, 37, 73, 1);
+}
+
+.button {
+	background-color:#372549;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	color:#ffffff;
+	padding: 15px 20px;
+}
+.button:hover {
+	background-color:#ffffff;
+	color: #372549;
 }
 
 /*Header*/
@@ -66,13 +99,6 @@ header{
 	box-shadow: 0 5px 15px rgba(0,0,0,0.25);
 }
 
-.menu{
-
-}
-
-.menu__item{
-}
-
 .menu__item a{
 	margin: 0 50px;
 }
@@ -81,19 +107,14 @@ header{
 .greetings{
 	font-family: 'Fira Mono', monospace;
 	background-color: #f3f3f3;
-	height: 450px;
 }
 
 .hello{
 	margin-top: 163px;
 }
 
-.hello__name{
-
-}
-
 .paragraph, .answers{
-	margin-top: 45px;
+	margin-top: 16px;
 }
 .paragraph h3{
 	font-weight: 500;
@@ -110,10 +131,52 @@ header{
 	font-size: 32px;
 }
 
+/*Second Screen*/
+
 .works{
 	background-color: #fff;
 	box-shadow: 0 5px 15px rgba(0,0,0,0.25), 0 -5px 15px rgba(0,0,0,0.25);
 }
 
-/*Second Screen*/
+/*Footer*/
+footer{
+	width: 100%;
+	/*height: 70px;*/
+	background-color: #fff;
+	box-shadow: 0px -5px 15px rgba(0, 0, 0, 0.25);
+}
+.footer-text{
+	margin-top: 25px;
+}
+.rabbit-login{
+	height: 32px;
+	margin-bottom: 15px;
+}
 
+/*Second Page*/
+
+/*Info screen*/
+.info{
+	background-color: #fff;
+}
+.user-pic{
+	margin-top: 150px;
+	height: 128px;
+}
+
+.name{
+	margin-top: 45px;
+	margin-bottom: 15px;
+}
+.info__text{
+	margin-bottom: 45px;
+}
+
+/*Skills screen*/
+.skills{
+	background-color: #fff;
+	padding-bottom: 100px;
+}
+.card{
+	border: none;
+}
