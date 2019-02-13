@@ -1,13 +1,8 @@
-/*font-family: 'Fira Mono', monospace;*/
-/*font-family: 'Raleway', sans-serif;*/
-
-/*Specification*/
-
 body{
 	margin: 0;
 	padding: 0;
 	background-color: #191716;
-	color: #fff;
+	color: #F8F8F8;
 	font-size: 16px;
 	font-family: 'Arial', sans-serif;
 }
@@ -33,7 +28,6 @@ a:hover{
 
 }
 
-/*Header*/
 header{
 	padding-left: 8vw;
 }
@@ -53,9 +47,9 @@ button{
 	border: 3px solid #F8F8F8;
 	background: none;
 	width: 14vw;
-	/*height: 2.76vw;*/
 	padding: 0.3vw;
 	margin-bottom: 1.8vw;
+	cursor: pointer;
 }
 
 button:hover{
