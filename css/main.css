@@ -29,6 +29,7 @@ a:hover{
 }
 
 header{
+	position: relative;
 	padding-left: 8vw;
 }
 
@@ -60,4 +61,15 @@ button:hover{
 .menu{
 	display: flex;
 	flex-direction: column;
+}
+
+#canvas-basic {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
 }
