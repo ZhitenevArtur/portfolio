@@ -1,3 +1,4 @@
+  
 var granimInstance = new Granim({
     element: '#canvas-basic',
     direction: 'top-bottom',
